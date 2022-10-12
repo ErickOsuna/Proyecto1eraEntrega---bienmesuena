@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,800;1,200;1,500;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/**--------------------HEADER------------------**/
+
+header {
+    background-color: black;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.logo a img:hover {
+    width: 90px;
+}
+
+.textoLogo {
+    /* background-color: brown; */
+    color: white;
+    font-weight: 200;
+}
+
+nav {
+    /* background-color: yellow; */
+    display: flex;
+    width: 60rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 {
+    /* background-color: blue; */
+    display: flex;
+    width: 55rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 li {
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    padding: -1rem;
+    font-weight: 200;
+}
+
+.menu1 li a:link {
+    color: white;
+}
+
+.menu1 li a:visited {
+    color: white;
+}
+
+.menu1 li a:hover {
+    color: red;
+    font-size: 17px;
+}
+
+.menu1 li a:active {
+    color: rgb(255, 73, 73);
+}
+
+/**--------------------HEADER------------------**/
+
+/**--------------MAIN DEL INDEX----------------**/
+
+.titulo {
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+.tituloYSubtitulo h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.tituloYSubtitulo h2 {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fondo {
+    background-image: url('../img/fondo-inicio1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 20px 20px 50px;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    width: 500px;
+    margin: 20px 20px 20px 50px;
+}
+
+.carruselTextos {
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carruselTextos div p {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.carruselTextos div h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.foto2 {
+    background-image: url('../img/fondo-inicio2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.spoti img {
+    width: 50px;
+    margin: 10px;
+}
+
+.disco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 0 35px 0;
+}
+
+.disco p {
+    font-style: italic;
+    font-weight: 200;
+}
+
+/**--------------MAIN DEL INDEX---------------*/
+
+/**---------MAIN DE NOSOTROS-------**/
+
+.hero2 {
+    background-image: url('../img/fondo-inicio2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.hero2 h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 20px 20px 50px;
+}
+
+.hero2 p {
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    width: 500px;
+    margin: 20px 20px 20px 50px;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.nosotrosEImagen {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+}
+
+.tituloYTexto h2 {
+    /* background-color: green; */
+    font-size: 50px;
+    font-weight: 200;
+    color: black;
+    margin: 0 20px 20px 50px;
+    text-align: center;
+}
+
+.tituloYTexto p {
+    /* background-color: yellow; */
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+    width: 900px;
+    margin: 20px 20px 20px 50px;
+}
+
+.diapason {
+    /* background-color: red; */
+    background-image: url('../img/fondo-inicio4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.diapason img {
+    width: 100%;
+    height: 100%;
+}
+
+.submenu {
+    /* background-color: red; */
+    margin: 100px 0 0 0;
+}
+
+.submenu ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.submenu a:link {
+    color: black;
+}
+
+.submenu a:visited {
+    color: black;
+}
+
+.submenu a:hover {
+    color: red;
+}
+
+.submenu a:active {
+    color: rgb(255, 73, 73);
+}
+
+.submenu2 {
+    width: 100%;
+}
+
+.submenu2 ul {
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 0 60px 0;
+}
+
+.submenu2 ul li {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0 10px 0 10px;
+}
+
+.submenu2 a:link{
+    color:black;
+}
+
+.submenu2 a:visited{
+    color:black;
+}
+
+.submenu2 a:hover{
+    color:red;
+    font-weight: 800;
+}
+
+.submenu2 a:active{
+    color: red;
+}
+
+
+.musicos {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.musicos img {
+    width: 300px;
+    height: auto;
+}
+
+.bloque1 {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.director h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.bloque2 {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.voces {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 40px 0 40px 0;
+    color: black;
+    /* -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.voces h3 {
+    font-weight: 200;
+}
+
+.director {
+    /* background-color: blue; */
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    margin: 40px;
+}
+
+/**-------------MAIN DE NOSOTROS---------------**/
+
+/**-------------MAIN DE NOTICIAS--------------**/
+
+.hero3 {
+    background-image: url('../img/fondo-inicio3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.hero3 h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 20px 20px 50px;
+}
+
+.hero3 p {
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    width: 500px;
+    margin: 20px 20px 20px 50px;
+}
+
+.blogDeNoticias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    /* background-color: green; */
+    margin: 40px 0 40px 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.blog img {
+    width: 50%;
+}
+
+.blog h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.blog p {
+    font-size: 20px;
+    font-weight: 200;
+    width: 80%;
+    margin: 40px;
+}
+
+.noticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.noticiasEImagen2 {
+    /* background-color: red; */
+    width: 90%;
+    text-align: center;
+}
+
+/**-------------MAIN DE NOTICIAS--------------**/
+
+/**-------MAIN DE MULTIMEDIA-------**/
+
+.hero4 {
+    background-image: url('../img/fondo-inicio4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.hero4 h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 20px 20px 50px;
+}
+
+.multimedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0 60px 0;
+}
+
+.fotoMultimedia img {
+    width: 150px;
+    margin: 40px;
+}
+
+.fotoMultimedia img:hover {
+    width: 300px;
+}
+
+.videoMultimedia img {
+    width: 150px;
+    margin: 40px;
+}
+
+.videoMultimedia img:hover {
+    width: 300px;
+}
+
+.audioMultimedia img {
+    width: 150px;
+    margin: 40px;
+}
+
+.audioMultimedia img:hover {
+    width: 300px;
+}
+
+/**--------MAIN DE MULTIMEDIA---------**/
+
+/**-------MAIN DE CONTACTO-------**/
+
+.hero5 {
+    background-image: url('../img/fondo-inicio1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.87);
+}
+
+.hero5 h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 20px 20px 20px;
+}
+
+.contacto {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.formulario {
+    width: 40%;
+    margin: auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+}
+
+.formulario h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.formulario input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 0.5px solid black;
+}
+
+.formulario textarea {
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#boton:hover{
+    background-color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+.mapa {
+    /* background-color: rgb(193, 128, 253); */
+    width: 40%;
+    margin: auto;
+}
+
+.mapa h3{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+.mapa pre{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+/**--------MAIN DE CONTACTO---------**/
+
+
+/**-------------------FOOTER------------------**/
+
+footer {
+    -webkit-box-shadow: 0px -7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -7px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.derechos {
+    margin: 0 30px 0 30px;
+}
+
+.link {
+    margin: 0 30px 0 30px;
+}
+
+.link a:link {
+    color: white;
+}
+
+.link a:visited {
+    color: white;
+}
+
+.link a:hover {
+    color: red;
+    font-size: 17px;
+}
+
+.link a:active {
+    color: rgb(255, 73, 73);
+}
+
+
+.redes a {
+    margin: 0 5px 0 5px;
+}
+
+.redes a img {
+    width: 30px;
+}
+
+.redes a img:hover {
+    width: 40px;
+}
+
+/**-------------------FOOTER------------------*/
