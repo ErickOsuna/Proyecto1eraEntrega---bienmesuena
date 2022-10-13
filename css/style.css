@@ -28,8 +28,10 @@ header {
 .logo {
     /* background-color: green; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: start;
+    align-items: start; */
+    position: fixed;
+    left: 5px;
 }
 
 .logo a {
@@ -48,6 +50,9 @@ header {
     /* background-color: brown; */
     color: white;
     font-weight: 200;
+    top: 30px;
+    position: fixed;
+    left: 50px;
 }
 
 nav {
